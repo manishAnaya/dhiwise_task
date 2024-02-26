@@ -1,0 +1,31 @@
+//internal
+export 'package:flutter/gestures.dart';
+export 'package:flutter/material.dart';
+export 'package:dhiwise_task/constant/style.dart';
+export 'package:dhiwise_task/constant/colors.dart';
+export 'package:dhiwise_task/constant/constants.dart';
+export '../controllers/my_controller.dart';
+export 'package:dhiwise_task/widgets/custom_text_field.dart';
+export 'package:flutter/services.dart';
+export 'package:dhiwise_task/authentication_pages/sign_in.dart';
+export 'package:dhiwise_task/authentication_pages/sign_up.dart';
+export 'package:dhiwise_task/controllers/auth_controller.dart';
+export 'package:dhiwise_task/widgets/my_button.dart';
+export 'package:dhiwise_task/authentication_pages/welcome.dart';
+export 'package:dhiwise_task/controllers/global_variables.dart';
+export 'package:dhiwise_task/home/home_page.dart';
+export 'package:dhiwise_task/authentication_pages/splash_screen.dart';
+export 'package:dhiwise_task/controllers/goal_controller.dart';
+export 'package:dhiwise_task/home/components/my_drawer.dart';
+export 'package:dhiwise_task/home/components/animated_progress_indicator.dart';
+export 'package:dhiwise_task/home/components/goal_detail.dart';
+
+//external packages
+export 'package:get/get.dart';
+export 'package:google_fonts/google_fonts.dart';
+export 'package:fluttertoast/fluttertoast.dart';
+export 'package:font_awesome_flutter/font_awesome_flutter.dart';
+export 'package:firebase_core/firebase_core.dart';
+export 'package:cloud_firestore/cloud_firestore.dart';
+export 'package:dhiwise_task/authentication_pages/shared_prefs.dart';
+export 'package:shared_preferences/shared_preferences.dart';
