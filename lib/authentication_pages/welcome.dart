@@ -24,7 +24,7 @@ class Welcome extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16),
-            Text("Discover your\nShopping Here",
+            Text("Establish the habit of\nsaving money",
                 textAlign: TextAlign.center, style: xLargeBoldColorText),
             const SizedBox(height: 80),
             Text(

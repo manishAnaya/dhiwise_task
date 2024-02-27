@@ -59,7 +59,8 @@ class GoalDetails extends StatelessWidget {
                                     children: [
                                       Text('Remaining'.toUpperCase(),
                                           style: normalLightText),
-                                      Text('₹$remainingAmt',
+                                      Text(
+                                          '₹${goalDetail.goalAmount - double.parse(amountSaved) >= 0 ? (goalDetail.goalAmount - (goalDetail.monthlyProjection * (goalDetail.savingsDate.length - 1))).toString() : '0'}',
                                           style: normalColorText)
                                     ],
                                   ),
