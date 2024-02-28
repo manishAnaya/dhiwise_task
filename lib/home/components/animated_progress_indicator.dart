@@ -23,8 +23,8 @@ class AnimatedLinearIndicator extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text('${(value * 100).toInt().toString()}% Goal Achieved',
-                    style: normalColorText),
-                Text('₹$saved/₹$total', style: smallColorText)
+                    style: xSmallColorText),
+                Text('₹$saved/₹$total', style: xSmallColorText)
               ],
             ),
             const SizedBox(height: 8.0),

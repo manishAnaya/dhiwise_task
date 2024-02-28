@@ -103,8 +103,7 @@ class SignIn extends StatelessWidget {
   Column loginwithGoogleFb() {
     return Column(
       children: [
-        Text('------------  or continue with  ------------',
-            style: normalBoldText),
+        Text('---------  or continue with  ---------', style: normalBoldText),
         const SizedBox(height: 12),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

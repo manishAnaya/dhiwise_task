@@ -12,10 +12,6 @@ class GoalDetails extends StatelessWidget {
     String amountSaved =
         (goalDetail.monthlyProjection * (goalDetail.savingsDate.length - 1))
             .toString();
-    String remainingAmt = goalDetail.goalAmount - double.parse(amountSaved) >= 0
-        ? (goalDetail.goalAmount - double.parse(amountSaved)).toString()
-        : '0';
-
     return Scaffold(
       appBar: AppBar(
         title: Text(goalDetail.goalName.toUpperCase(), style: largeText),
@@ -136,17 +132,17 @@ class GoalDetails extends StatelessWidget {
                                                 children: [
                                                   Text(
                                                       'Monthly Saving Projection Amount',
-                                                      style: normalColorText),
+                                                      style: smallColorText),
                                                   Text(
                                                     convertDateTimeFormat(
                                                         goalDetail.savingsDate[
                                                             index + 1]),
+                                                    style: xsmallText,
                                                   ),
                                                 ],
                                               ),
                                               Text(
-                                                  goalDetail.monthlyProjection
-                                                      .toString(),
+                                                  '₹${goalDetail.monthlyProjection.toString()}',
                                                   style: normalColorText),
                                             ],
                                           ),
